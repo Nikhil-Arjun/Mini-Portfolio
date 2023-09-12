@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <img
+        src="./assets/theme_light.png"
+        alt="theme icon"
+        id="toggleTheme"
+        class="theme-btn" />
+
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img src="./assets/Nikhil-Arjun.jpg" alt="Nikhil Arjun" />
+      </div>
+
+      <div class="hero-info">
+        <h1>Nikhil Arjun</h1>
+        <h2>Fronted Developer</h2>
+        <div class="logo-container">
+          <a href="https://github.com/Nikhil-Arjun"
+            ><img src="./assets/github_light.png" alt="github logo"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/nikhil-arjun/"
+            ><img src="./assets/linkedin_light.png" alt="linkedin logo"
+          /></a>
+
+          <a href="mailto:nikhilarj338@gmail.com">
+            <img src="./assets/email_light.png" alt="emial logo" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="experience">
+      <h2><b>3</b><br />Years<br />Frontend</h2>
+      <h2><b>5</b><br />Years<br />B.Sc. & M.Sc.</h2>
+      <h2><b>4</b><br />Satisfied<br />Employers</h2>
+    </section> -->
+
+    <section class="cta">
+      <a href="./assets/Nikhil Arjun Resume.pdf" download="">
+        <button class="btn download-btn">Download CV</button>
+      </a>
+
+      <a href="mailto:nikhilarj338@gmail.com">
+        <button class="btn contact-btn">Contact Me</button>
+      </a>
+    </section>
+
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Skills</button>
+        <button class="btn-2" id="skills-btn">SKills</button>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/">
+          <img src="./assets/project-1.png" alt="project-1" />
+        </a>
+      </div>
+
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/">
+          <img src="./assets/project-2.png" alt="project-2" />
+        </a>
+      </div>
+
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/">
+          <img src="./assets/project-3.png" alt="project-3" />
+        </a>
+      </div>
+
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/">
+          <img src="./assets/project-4.png" alt="project-4" />
+        </a>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Frontend</h3>
+        <article class="frontend-skills">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>SASS</p>
+          <p>JavaScript</p>
+          <p>TypeScript</p>
+          <p>React.js</p>
+          <p>Material UI</p>
+        </article>
+      </div>
+
+      <div class="wrapper">
+        <h3>Backend</h3>
+        <article class="backend-skills">
+          <p>Node.js</p>
+          <p>Express.js</p>
+          <p>APIs</p>
+          <p>Database CRUD</p>
+          <p>Git & GitHub</p>
+          <p>GraphQL</p>
+          <p>Web Server</p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy Nikhil Arjun 2023</p>
+    </footer>
+  </body>
+
+  <script src="./app.js" defer></script>
+</html>
