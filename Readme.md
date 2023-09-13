@@ -1,3 +1,3 @@
 #  Mini-Portfolio
 
-### URL - https://melodious-squirrel-10d820.netlify.app/
+### URL - https://radiant-taiyaki-a93be0.netlify.app/
