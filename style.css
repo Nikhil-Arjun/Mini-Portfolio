@@ -234,7 +234,7 @@ footer,
 
 .btn-2:hover,
 .active-btn {
-  background-color: white;
+  background-color: var(--btn-bg-color);
 }
 
 .btn,
