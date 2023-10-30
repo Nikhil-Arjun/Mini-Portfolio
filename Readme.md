@@ -1,3 +1,3 @@
 #  Mini-Portfolio
 
-### URL - https://clever-duckanoo-2f8750.netlify.app/
+### URL - https://nikhil-arjun.github.io/Mini-Portfolio/
